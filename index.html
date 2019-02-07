@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Страница-визитка студента Ремизова К.</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<script
+	src="http://code.jquery.com/jquery-3.3.1.min.js"
+	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous"></script>
+	<script src="./js/scripts.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<div class="logo"><img src="./images/logo.png" alt=""></div>
+			<h1 class="title">Анкета студента Ремизова К.</h1>
+		</header>
+		<nav class="navigation">
+			<ul>
+				<li><a href="#about">Обо мне</a></li>
+				<li><a href="#education">Образование</a></li>
+				<li><a href="#hobby">Хобби</a></li>
+				<li><a href="#feedback">Обратная связь</a></li>
+			</ul>
+		</nav>
+		<a name="about"></a>
+		<div class="block info">
+			<div class="row">
+				<div class="col-12">
+					<div class="title title__block">Обо мне</div>
+				</div>
+				<div class="col-6">
+					<div class="info__img">
+						<img src="./images/iam.jpg" alt="">
+					</div>
+				</div>
+				<div class="col-6">
+					<div class="info__text">
+						<div class="info__name">
+							<ul>
+								<li>Ремизов К.Е.</li>
+								<li>Дата рождения: 27.12.1986</li>
+								<li>Место рождения: город Севастополь</li>
+								<li>Интересы: компьютерные игры, активный отдых, путешествия, велосипед.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a name="education"></a>
+		<div class="block education">
+			<div class="row">
+				<div class="col-12">
+					<div class="title title__block">Образование</div>
+				</div>
+				<div class="col-6">
+					<div class="education__item">
+						<div class="education__img">
+							<p><img src="./images/diplom_bakalavra.jpg" alt=""></p>
+						</div>
+						<p>Севастопольский национальный технический университет, 2004—2009 г.г.,</p>
+						<p><b>Специальность:</b> Менеджер-экономист (бакалавр)</p>
+					</p>
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="education__item">
+					<div class="education__img">
+						<p><img src="./images/diplom_magistra.jpg" alt=""></p>
+					</div>
+					<p>Севастопольский национальный технический университет, 2009—2010 г.г.,</p>
+					<p><b>Специальность:</b> Менеджер-экономист (магистр)</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a name="hobby"></a>
+	<div class="block hobby">
+		<div class="row">
+			<div class="col-12">
+				<div class="title title__block">Хобби</div>
+			</div>
+			<div class="col-4">
+				<div class="hobby__item">
+					<div class="hobby__img">
+						<img src="./images/icons/bike.png" alt="">
+						<div class="hobby__text">Активный отдых – это настоящая жизнь. Он даёт возможность зарядиться энергией, которой вам хватит до следующего отпуска. Летний период хорош тем, что предоставляет полную свободу выбора. Воплотить в жизнь можно самые смелые идеи, и неважно куда вы поедете – на дачу или в далёкие страны. Основные правила – это активность, движение, спорт.</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="hobby__item">
+					<div class="hobby__img">
+						<img src="./images/icons/ticket.png" alt="">
+						<div class="hobby__text">Путешествие – это прежде всего исследование и открытие. Недаром эпоха великих географических открытий тотчас вызывает у нас ассоциации с мореплавателями и первопроходцами, совершившими самые авантюрные и отчаянные путешествия в неизвестные земли, чтобы принести людям новые знания об окружающем их мире, о планете, на которой они живут.</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="hobby__item">
+					<div class="hobby__img">
+						<img src="./images/icons/games.jpg" alt="">
+						<div class="hobby__text">Компьютерные игры - объекты искусства 21 века и лучший способ развлечения </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a name="feedback"></a>
+	<div class="block feedback">
+		<div class="row">
+			<div class="col-12">
+				<div class="title title__block">Обратная связь</div>
+				<div class="form">
+					<form action="">
+						<div class="row">
+							<div class="col-6">
+								<div class="form-group">
+									<label for="">Ваше имя:</label>
+									<input type="text" class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="">Ваше телефон:</label>
+									<input type="text" class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="">Ваше e-mail:</label>
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="form-group">
+									<label for="">Комментарий:</label>
+									<textarea class="form-control" name="" id="" cols="30" rows="8"></textarea>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="form-check">
+									<input type="checkbox" class="form-check-input">
+									<label for="">Согласен с условиями обработки персональных данных</label>
+								</div>
+							</div>
+							<div class="col-6">
+								<button type="submit" class="btn btn-primary">Отправить</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="row">
+			<div class="col-12">
+				<div class="footer__social">
+					<a href="https://vk.com/ycnexod" class="footer__social-item">
+						<img src="./images/icons/vk.png" alt="">
+					</a>
+					<a href="https://facebook.com/pieceofquality" class="footer__social-item">
+						<img src="./images/icons/facebook.png" alt="">
+					</a>
+				</div>
+				<div class="footer__year">© Ремизов К.Е., 2019</div>
+			</div>
+		</div>
+	</footer>
+</div>
+</body>
+</html>
